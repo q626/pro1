@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(20, 10, 29);
+    color: burlywood;
+    text-align: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 327.2px;
+   
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  #ourteam {
+    background-size: cover;
+    text-align: center;
+    color: burlywood;
+    font-family:monospace;
+    align-items: center;
+    }
+    #contact {
+        background-color:burlywood;
+        text-align: center;
+        color:burlywood;
+        font-size: 20px;
+    }
+    #contact h1{
+        color: rgb(13, 6, 19);
+    }
+    #contact {
+        background-color:burlywood;
+        text-align: center;
+        color:burlywood;
+        font-size: 20px;
+    }
+    #contact h1{
+        color: rgb(13, 6, 19);
+    }
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid rgb(224, 226, 204); /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      }
+  
+      
+      /* Style the submit button with a specific background color etc */
+      input[type=submit] {
+        background-color:burlywood;
+        color:rgb(13, 6, 19);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      /* When moving the mouse over the submit button, add a darker green color */
+      input[type=submit]:hover {
+        background-color:rgb(61, 48, 61);
+      }
+      
+      /* Add a background color and some padding around the form */
+      .container {
+        border-radius: 5px;
+        background-color: rgb(13, 6, 19);
+        padding: 20px;
+      }
+      
+     
+      #About {
+  
+          font-size: 25px;
+          width: 100%;}
+          #About p {
+            animation-duration: 8s;
+            animation-name: slidein;
+          }
+          
+          @keyframes slidein {
+            from {
+           
+              width: 300%;
+            }
+          
+            75% {
+              font-size: 300%;
+      
+              width: 150%;
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
+          #div2 {
+            width: 1350px;
+            height: 600px;
+            background-image: url("louis-charavner-programming.jpg");
+            animation-name: example;
+            animation-duration: 4s;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 30px;
+            color: aliceblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+          
+          @keyframes example {
+            from {background-image: url("louis-charavner-programming.jpg");}
+            to {background-image: url("louis-charavner-programming.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;}}
+              @media only screen and (max-width:1350px){
+                #div2 {
+                  width: 1350;
+                  height: 600px;
+                }
+              }
